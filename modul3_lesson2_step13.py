@@ -55,4 +55,5 @@ class test_registration_form(unittest.TestCase):
         self.assertEqual("Congratulations! You have successfully registered!", welcome_text, f'Wrong text {welcome_text}')
         # закрываем браузер после всех манипуляций
         browser.quit()
-unittest.main()
+if __name__ == "__main__":
+    unittest.main()
